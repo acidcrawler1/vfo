@@ -3,7 +3,7 @@ from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 # import urllib.parse
 import urllib.request
-
+#
 # baseUrl = 'https://www.vfo.se/sv/artiklar/herr/index.html'
 baseUrl = 'https://www.vfo.se/sv/artiklar/herr/nyheter-2/index.html'
 
