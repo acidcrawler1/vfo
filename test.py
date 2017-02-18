@@ -13,8 +13,8 @@ soup = BeautifulSoup(data, 'html.parser')
 
 vfo_data = soup.find_all(class_='PT_Wrapper')
 
-for vfo in vfo_data:
-    print("{} -- {} -- {} -- {}".format(vfo.find(class_='brand').get_text(), \
-                                        vfo.find(class_='PT_Beskr').get_text(), \
-                                        urljoin(baseUrl, vfo.find(class_='PT_Beskr').a.get('href')), \
-                                        vfo.find(class_='PT_Pris').get_text()))
+for vfo123 in vfo_data:
+    print("{} -- {} -- {} -- {}".format(vfo123.find(class_='brand').get_text(), \
+                                        vfo123.find(class_='PT_Beskr').get_text(), \
+                                        urljoin(baseUrl, vfo123.find(class_='PT_Beskr').a.get('href')), \
+                                        vfo123.find(class_='PT_Pris').get_text()))
