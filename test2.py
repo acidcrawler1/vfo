@@ -1,5 +1,6 @@
 # test2.py
 
+
 class Savings(object):
     def __init__(self, name, age, banksavings, salary):
         self.name = name

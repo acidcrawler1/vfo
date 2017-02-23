@@ -53,4 +53,4 @@ def getVfoObjects(url='https://www.vfo.se/sv/artiklar/herr/index.html', *, error
                                                   vfo.find(class_='PT_Pris').get_text()))
 
 getVfoObjects()
-# getVfoObjects('https://www.vfo.se/sv/artiklar/herr/nyheter-2/index.html')
+# getVfoObjects('https://www.vfo.se/sv/artiklar/dam/nyheter/ALLA/sida.html')
